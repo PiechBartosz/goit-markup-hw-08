@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.isactive:after {
+  background-color: $fifth-color;
+  position: absolute;
+  content: "";
+  display: flex;
+  justify-content: center;
+  width: 53px;
+  height: 4px;
+  top: 76px;
+  border-radius: 2px;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.display-images {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+.h1-text-index {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  width: 696px;
+  color: $third-color;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.h2-text-index {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.h3-text-index {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  padding-top: 30px;
+  color: $main-color;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+.display-center {
+  text-align: center;
+}
+
+.background-2 {
+  background-color: $seventh-color;
+}
+
+.background-3 {
+  background-color: $third-color;
+}
+
+.h3-text-index2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: $main-color;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.address-structure {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $third-color;
+  text-decoration-line: none;
+}
+
+.address2-structure {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: $fourth-color;
+}
+.address2-structure:hover {
+  color: $third-color;
+}
+
+.input-wrapper {
+  position: relative;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: $second-color;
+  padding: 4px 24px 20px 24px;
+}
+.lorem {
+  padding-bottom: 0;
+}
+
+.rectangle-style {
+  background-color: $seventh-color;
+  border-radius: 4px;
+  padding-bottom: 30px;
+}
+
+.p-text-structure {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $second-color;
+  text-decoration-line: none;
+}
+.address2-structure:hover,
+.p-text-structure:hover {
+  color: $third-color;
+}
+
+.input-wrapper:hover svg,
+.input-wrapper:hover input {
+  fill: #2196f3;
+  border-color: #2196f3;
+}

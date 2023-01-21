@@ -1,0 +1,18 @@
+.footer-shape {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $background-color;
+
+  &__footer-display {
+    display: flex;
+  }
+
+  &__address-style {
+    font-style: normal;
+    margin-top: 20px;
+  }
+
+  &__margin {
+    margin-top: 9px;
+  }
+}

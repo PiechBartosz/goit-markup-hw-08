@@ -1,0 +1,39 @@
+.header-style {
+  border-bottom: 1px solid #ececec;
+  &__flex-nav-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__padding {
+    padding-bottom: 25px;
+    padding-top: 24px;
+  }
+
+  &__display-form-contacts {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
+  }
+
+  &__header-contact-color {
+    color: $second-color;
+    display: flex;
+    align-items: center;
+  }
+
+  &__mail-icon-position {
+    vertical-align: middle;
+    align-items: center;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+
+  &__iphone-icon-position {
+    vertical-align: middle;
+    align-items: center;
+    margin-right: 10px;
+    fill: currentColor;
+  }
+}
