@@ -7,10 +7,6 @@
   margin-bottom: 20px;
   padding-top: 12px;
 
-  &__margin {
-    margin-left: 70px;
-  }
-
   &__social-links {
     display: flex;
     list-style: none;
@@ -30,3 +26,42 @@
     border-radius: 50%;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .join-us__margin {
+    margin-left: 70px;
+  }
+}
+
+// .join-us {
+//   color: $third-color;
+//   font-weight: 700px;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   margin-bottom: 20px;
+//   padding-top: 12px;
+
+//   &__margin {
+//     margin-left: 70px;
+//   }
+
+//   &__social-links {
+//     display: flex;
+//     list-style: none;
+//     gap: 10px;
+//   }
+
+//   &__shape {
+//     border-radius: 50%;
+//     background-color: rgba(255, 255, 255, 0.1);
+//     fill: #ffffff;
+//   }
+
+//   &__shape:hover {
+//     background-color: $fifth-color;
+//     cursor: pointer;
+//     fill: #ffffff;
+//     border-radius: 50%;
+//   }
+// }

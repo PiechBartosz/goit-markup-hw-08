@@ -34,3 +34,40 @@
     color: $second-color;
   }
 }
+
+// .nav-style {
+//   display: flex;
+//   align-items: center;
+//   gap: 93px;
+
+//   &__nav-display-form {
+//     display: flex;
+//     align-items: center;
+//     gap: 50px;
+//     margin-left: 93px;
+//   }
+
+//   &__nav-structure {
+//     color: $main-color;
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     text-decoration-line: none;
+//   }
+//   &__nav-structure--active {
+//     color: $fifth-color;
+//   }
+
+//   &__nav-structure:focus {
+//     color: $fifth-color;
+//   }
+
+//   &__nav-structure:hover {
+//     color: $fifth-color;
+//   }
+
+//   &__contact-color {
+//     color: $second-color;
+//   }
+// }
