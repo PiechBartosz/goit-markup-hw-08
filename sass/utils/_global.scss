@@ -76,7 +76,8 @@ h2 {
 }
 
 .display-center {
-  text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
 .background-2 {
