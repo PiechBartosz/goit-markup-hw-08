@@ -67,6 +67,8 @@ body {
   padding-top: 30px;
   color: $main-color;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -169,6 +171,10 @@ h2 {
 
   .container {
     width: 1200px;
+  }
+
+  .h3-text-index {
+    display: block;
   }
 }
 // * {
