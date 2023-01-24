@@ -95,6 +95,8 @@ h2 {
   color: $main-color;
   padding-top: 30px;
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .address-structure {
@@ -175,6 +177,10 @@ h2 {
   }
 
   .h3-text-index {
+    display: block;
+  }
+
+  .h3-text-index2 {
     display: block;
   }
 }
