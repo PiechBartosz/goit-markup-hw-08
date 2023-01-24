@@ -19,7 +19,7 @@
 
   &__header-contact-color {
     color: $second-color;
-    display: flex;
+    display: none;
     align-items: center;
   }
 
@@ -35,6 +35,14 @@
     align-items: center;
     margin-right: 10px;
     fill: currentColor;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-style__header-contact-color {
+    color: $second-color;
+    display: flex;
+    align-items: center;
   }
 }
 

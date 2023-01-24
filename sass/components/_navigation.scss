@@ -4,7 +4,7 @@
   gap: 93px;
 
   &__nav-display-form {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 50px;
     margin-left: 93px;
@@ -35,6 +35,20 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .nav-style__nav-display-form {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 93px;
+  }
+
+  .nav-style {
+    display: flex;
+    align-items: center;
+    gap: 93px;
+  }
+}
 // .nav-style {
 //   display: flex;
 //   align-items: center;
