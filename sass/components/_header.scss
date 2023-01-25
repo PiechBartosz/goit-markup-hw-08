@@ -38,6 +38,25 @@
   }
 }
 
+// -----------------  RESPONSIVE TABLET--------------------
+
+@media screen and (min-width: 768px) {
+  // .header-style__header-contact-color {
+  //   color: $second-color;
+  //   flex-direction: column;
+  //   align-items: flex-start;
+  //   display: block;
+  //   gap: 10px;
+  // }
+  .header-style__header-contact-color {
+    color: $second-color;
+    display: flex;
+    align-items: center;
+  }
+}
+
+// -----------------Desktop------------------
+
 @media screen and (min-width: 1200px) {
   .header-style__header-contact-color {
     color: $second-color;

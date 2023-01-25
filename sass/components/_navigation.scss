@@ -35,6 +35,17 @@
   }
 }
 
+// -----------------  RESPONSIVE TABLET--------------------
+
+@media screen and (min-width: 768px) {
+  .nav-style__nav-display-form {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 93px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .nav-style__nav-display-form {
     display: flex;
