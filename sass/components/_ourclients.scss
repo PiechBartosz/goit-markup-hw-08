@@ -7,11 +7,13 @@
   }
   &__display {
     list-style: none;
-    align-items: normal;
-    align-items: stretch;
+    align-items: center;
     gap: 30px;
     flex-wrap: wrap;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   &__clients {
@@ -39,6 +41,11 @@
     width: 106;
     height: 60.04;
   }
+}
+
+// ________tablet___________
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 }
 
 @media screen and (min-width: 1200px) {

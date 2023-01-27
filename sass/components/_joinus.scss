@@ -25,11 +25,22 @@
     fill: #ffffff;
     border-radius: 50%;
   }
+  &__margin {
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .join-us__margin {
     margin-left: 70px;
+  }
+
+  .join-us__social-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
   }
 }
 
