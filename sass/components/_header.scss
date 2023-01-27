@@ -40,7 +40,7 @@
 
 // -----------------  RESPONSIVE TABLET--------------------
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   // .header-style__header-contact-color {
   //   color: $second-color;
   //   flex-direction: column;
@@ -48,13 +48,22 @@
   //   display: block;
   //   gap: 10px;
   // }
+  .header-style__display-form-contacts {
+    flex-flow: column;
+    align-items: baseline;
+    gap: 10px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .header-style__header-contact-color {
     color: $second-color;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding-right: 10px;
   }
 }
-
 // -----------------Desktop------------------
 
 @media screen and (min-width: 1200px) {
@@ -62,6 +71,12 @@
     color: $second-color;
     display: flex;
     align-items: center;
+  }
+  .header-style__display-form-contacts {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: auto;
   }
 }
 
