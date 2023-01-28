@@ -77,6 +77,8 @@ h2 {
 .display-center {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .background-2 {
@@ -129,7 +131,7 @@ h2 {
   padding: 4px 24px 20px 24px;
 }
 .lorem {
-  padding-bottom: 0;
+  padding-bottom: 45px;
 }
 
 .rectangle-style {
@@ -232,6 +234,9 @@ h2 {
   }
   .no-display {
     display: flex;
+  }
+  .lorem {
+    padding-bottom: 0px;
   }
 }
 // * {
