@@ -12,6 +12,14 @@ body {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -31,30 +39,43 @@ body {
 }
 
 .section {
-  padding: 94px 0;
+  padding: 60px 0;
 }
 
 .display-images {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  display: block;
+  // display: block;
 }
 
+// .h1-text-index {
+//   font-weight: 900;
+//   font-size: 44px;
+//   line-height: 1.36;
+//   letter-spacing: 0.06em;
+//   color: $third-color;
+//   text-align: center;
+//   margin: 0 auto;
+// }
 .h1-text-index {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.61;
   letter-spacing: 0.06em;
   color: $third-color;
   text-align: center;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 365px;
 }
 
 .h2-text-index {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 28px;
+  line-height: 1.26;
   letter-spacing: 0.03em;
 }
 
@@ -71,7 +92,7 @@ body {
 }
 
 h2 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .display-center {
@@ -107,6 +128,7 @@ h2 {
   letter-spacing: 0.03em;
   color: $third-color;
   text-decoration-line: none;
+  white-space: nowrap;
 }
 
 .address2-structure {
@@ -168,9 +190,43 @@ h2 {
 .no-display {
   display: none;
 }
+.js-menu-container.is-open {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1;
+  position: fixed;
+  overflow: hidden;
+}
+.js-menu-container {
+  display: none;
+}
+
+.menu-toggle {
+  background-color: transparent;
+  border: none;
+}
 // ________tablet___________
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
+  .h2-text-index {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  .section {
+    padding: 94px 0;
+  }
+  .menu-toggle {
+    display: none;
+  }
   .rectangle-style {
     background-color: $seventh-color;
     border-radius: 4px;
@@ -194,21 +250,19 @@ h2 {
   .h3-text-index {
     justify-content: left;
   }
-
-  // HAMBURGER KLASA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!____
-  .js-menu-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100%;
-    padding: 48px 40px;
-    background-color: #fff;
-    z-index: 999;
-    transition: transform 250ms ease-in-out;
+  .h1-text-index {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    color: $third-color;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 365px;
   }
-
-  // end_________________________________________________
 }
 
 @media screen and (min-width: 1200px) {
@@ -218,6 +272,7 @@ h2 {
     position: relative;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 100%;
   }
   .display-center {
     text-align: center;
@@ -239,12 +294,20 @@ h2 {
     display: block;
   }
   .h1-text-index {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: $third-color;
+    text-align: center;
+    margin: 0 auto;
     width: 696px;
   }
   .rectangle-style {
     background-color: $seventh-color;
     border-radius: 4px;
     padding-bottom: 30px;
+    height: 120px;
     width: 100%;
   }
   .no-display {
@@ -252,6 +315,12 @@ h2 {
   }
   .lorem {
     padding-bottom: 0px;
+  }
+  .lorem li {
+    width: 270px;
+  }
+  .p-text-structure {
+    width: 270px;
   }
 }
 // * {

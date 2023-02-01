@@ -2,6 +2,11 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 100%;
+
+  .index-img__foto {
+    width: 100%;
+  }
 
   &__paragraph-structure {
     padding-bottom: 16px;
@@ -29,15 +34,18 @@
     fill: #ffffff;
   }
 }
+@media screen and (min-width: 768px) {
+  .index-img-style {
+    width: 46%;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .index-img-style__icon-position {
     justify-content: space-between;
   }
   .index-img-style {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    width: 25%;
   }
 }
 

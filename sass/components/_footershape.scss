@@ -24,6 +24,13 @@
 // ________tablet___________
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-shape {
+    &__footer-display {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) {

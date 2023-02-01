@@ -35,6 +35,66 @@
   }
 }
 
+.nav-mobile-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 48px 40px;
+}
+
+.js-close-menu {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+
+.nav-mobile-contact a {
+  display: block;
+}
+
+.nav-mobile-contact a:first-child {
+  margin-bottom: 32px;
+  color: $fifth-color;
+}
+
+.nav-mobile-contact a:last-child {
+  color: $second-color;
+}
+
+.menu__social {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__social a {
+  color: $fifth-color;
+}
+
+.menu-social__separator {
+  width: 1px;
+  height: 100%;
+  background: rgba(33, 33, 33, 0.2);
+}
+
+.nav-mobile__menu-list li {
+  margin-bottom: 36px;
+}
+
+.nav-mobile__menu-list a {
+  color: $main-color;
+}
+
+.nav-mobile__menu-list a:hover {
+  color: $fifth-color;
+}
+
+.js-close-menu {
+  background-color: transparent;
+  border: none;
+}
+
 // -----------------  RESPONSIVE TABLET--------------------
 
 @media screen and (min-width: 768px) {

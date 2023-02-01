@@ -5,7 +5,6 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-  padding-top: 12px;
 
   &__social-links {
     display: flex;
@@ -30,9 +29,23 @@
   }
 }
 
+.join-us__margin {
+  margin: 60px auto 0 auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .join-us__margin {
+    margin: 0;
+  }
+  .join-us {
+    padding-top: 12px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .join-us__margin {
     margin-left: 70px;
+    margin-top: 10px;
   }
 
   .join-us__social-links {
